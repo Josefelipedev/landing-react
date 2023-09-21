@@ -8,7 +8,7 @@ export const GripTwoColums = ({ title, text, srcImg, background = false }) => {
     <SectionBackground background={background}>
       <Container background={background}>
         <TextComponentGrip>
-          <Heading uppercase colorDark={!background}>
+          <Heading uppercase colorDark={!background} as="h2">
             {title}
           </Heading>
           <TextComponent>{text}</TextComponent>

@@ -8,7 +8,7 @@ export const GripContent = ({ title, html, background = false }) => {
   return (
     <SectionBackground background={background}>
       <Container>
-        <Heading uppercase colorDark={!background}>
+        <Heading uppercase colorDark={!background} as="h2">
           {title}
         </Heading>
         <Html>
