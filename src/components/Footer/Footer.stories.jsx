@@ -4,7 +4,7 @@ export default {
   title: " Footer",
   component: Footer,
   args: {
-    html: `<p><a href="https://beacons.page/otaviomiranda">Feito com ❤ por José Felipe</a></p>`,
+    Footerhtml: `<p><a href="https://beacons.page/otaviomiranda">Feito com ❤ por José Felipe</a></p>`,
   },
   argTypes: {
     children: { type: "String" },
