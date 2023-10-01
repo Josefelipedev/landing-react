@@ -1,14 +1,10 @@
 import { Wrapper } from "./styles";
 import { Heading } from "../../components/Heading";
+import { Base } from "../Base";
+import { MockBase } from "../Base/base.stories";
 
 function Home() {
-  return (
-    <div className="App">
-      <Wrapper>
-        <Heading light={false}>Hello</Heading>
-      </Wrapper>
-    </div>
-  );
+  return <Base {...MockBase} />;
 }
 
 export default Home;

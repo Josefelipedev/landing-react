@@ -12,5 +12,5 @@ root.render(
       <Home />
       <GlobalStyle />
     </ThemeProvider>
-  </React.StrictMode>,
+  </React.StrictMode>
 );
